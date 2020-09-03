@@ -1,0 +1,31 @@
+.margin {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+
+.example-card {
+  max-width: 100%;
+}
+
+.example-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+
+.icon-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+}
+
+.map-img {
+  width: 350px;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}

@@ -1,0 +1,56 @@
+<!-- <mat-card>
+  <mat-card *ngFor="let book of books">
+    <mat-card-header
+      ><mat-card-title>Shiba Inu</mat-card-title>
+      <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+    </mat-card-header>
+    <img src="{{ book.name }}" />
+  </mat-card>
+</mat-card> -->
+<mat-card class="margin">
+  <table class="table table-hover">
+    <tbody>
+      <tr *ngFor="let book of books">
+        <td>
+          <mat-card><img src="{{ book.name }}" /></mat-card>
+        </td>
+        <td>
+          <mat-card
+            ><mat-card-header>
+              <mat-card-title>{{ book.title }}</mat-card-title>
+              <mat-card-subtitle>{{ book.author }}</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p>
+                Carried nothing on am warrant towards. Polite in of in oh needed
+                itself silent course. Assistance travelling so especially do
+                prosperous appearance mr no celebrated. Wanted easily in my
+                called formed suffer. Songs hoped sense as taken ye mirth at.
+                Believe fat how six drawing pursuit minutes far. Same do seen
+                head am part it dear open to. Whatever may scarcely judgment
+                had. Consider now provided laughter boy landlord dashwood. Often
+                voice and the spoke. No shewing fertile village equally prepare
+                up females as an. That do an case an what plan hour of paid.
+                Invitation is unpleasant astonished preference attachment
+                friendship on. Did sentiments increasing particular nay. Mr he
+                recurred received prospect in. Wishing cheered parlors adapted
+                am at amongst matters. Tolerably earnestly middleton extremely
+                distrusts she boy now not. Add and offered prepare how cordial
+                two promise. Greatly who affixed suppose but enquire compact
+                prepare all put. Added forth chief trees but rooms think may.
+                Wicket do manner others seemed enable rather in. Excellent own
+                discovery unfeeling sweetness questions the gentleman. Chapter
+                shyness matters mr parlors if mention thought.Excellent own
+                discovery unfeeling sweetness questions the gentleman.
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-raised-button color="primary">READ</button>
+              <button mat-raised-button>DOWNLOAD</button>
+            </mat-card-actions>
+          </mat-card>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</mat-card>

@@ -1,0 +1,14 @@
+.margin {
+  /* background-color: grey; */
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+mat-card {
+  margin-top: 1%;
+  height: 50%;
+  /* background-color: blueviolet; */
+}
+mat-card-content {
+  margin-top: 1%;
+}
